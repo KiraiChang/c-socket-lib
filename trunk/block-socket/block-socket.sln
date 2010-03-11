@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket-lib", "socket-lib\socket-lib.vcproj", "{307A60D0-4B6C-4620-9D3F-3EB7E321715E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clinet-app", "clinet-app\clinet-app.vcproj", "{BC44196E-ADB8-4530-B5D3-32CDAD0A2B37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{307A60D0-4B6C-4620-9D3F-3EB7E321715E} = {307A60D0-4B6C-4620-9D3F-3EB7E321715E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server-app", "server-app\server-app.vcproj", "{9397BC88-CA86-41A0-ACC6-FE71960EA881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{307A60D0-4B6C-4620-9D3F-3EB7E321715E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{307A60D0-4B6C-4620-9D3F-3EB7E321715E}.Debug|Win32.Build.0 = Debug|Win32
+		{307A60D0-4B6C-4620-9D3F-3EB7E321715E}.Release|Win32.ActiveCfg = Release|Win32
+		{307A60D0-4B6C-4620-9D3F-3EB7E321715E}.Release|Win32.Build.0 = Release|Win32
+		{BC44196E-ADB8-4530-B5D3-32CDAD0A2B37}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC44196E-ADB8-4530-B5D3-32CDAD0A2B37}.Debug|Win32.Build.0 = Debug|Win32
+		{BC44196E-ADB8-4530-B5D3-32CDAD0A2B37}.Release|Win32.ActiveCfg = Release|Win32
+		{BC44196E-ADB8-4530-B5D3-32CDAD0A2B37}.Release|Win32.Build.0 = Release|Win32
+		{9397BC88-CA86-41A0-ACC6-FE71960EA881}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9397BC88-CA86-41A0-ACC6-FE71960EA881}.Debug|Win32.Build.0 = Debug|Win32
+		{9397BC88-CA86-41A0-ACC6-FE71960EA881}.Release|Win32.ActiveCfg = Release|Win32
+		{9397BC88-CA86-41A0-ACC6-FE71960EA881}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
