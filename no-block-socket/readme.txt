@@ -1,0 +1,14 @@
+這是一個網路計算機程式.
+利用非阻斷式網路連線架構.
+搭配多執行緒完成.
+使用方法:
+1.架立伺服器:選擇s開始伺服器運作
+2.執行client-app
+3.完成連線時client-app會要求輸入運算式EX:123+486=按下enter會發動send_thread
+4.client會把運算式傳送至server計算
+5.server收到資料會發動recv_thread並會把123+486=在家上存在m_data的成員變數中
+6.計算完成後會把mb_send_data的旗標設定成true所以會發動send_thread把答案回傳給client.
+7.client收到資料會發動recv_thread把資料收進來會存放在m_buf_recv的成員變數中並通知主執行緒執行show_data_result_msg();
+8.印出資料.
+9.其他時間會讓執行緒執行sleep()直到發動...
+10.執行緒太多時間在sleep故浪費電腦效能,不過可以隨時進入隨時運算...
