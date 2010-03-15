@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket-lib", "socket-lib\socket-lib.vcproj", "{56F2484C-6603-418D-8E66-60F3B5D31D0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server-app", "server-app\server-app.vcproj", "{ACD31882-3E1A-4876-BA09-0992358B17E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client-app", "client-app\client-app.vcproj", "{43697B5A-933D-4557-80EF-518047CF6B30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56F2484C-6603-418D-8E66-60F3B5D31D0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56F2484C-6603-418D-8E66-60F3B5D31D0D}.Debug|Win32.Build.0 = Debug|Win32
+		{56F2484C-6603-418D-8E66-60F3B5D31D0D}.Release|Win32.ActiveCfg = Release|Win32
+		{56F2484C-6603-418D-8E66-60F3B5D31D0D}.Release|Win32.Build.0 = Release|Win32
+		{ACD31882-3E1A-4876-BA09-0992358B17E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACD31882-3E1A-4876-BA09-0992358B17E4}.Debug|Win32.Build.0 = Debug|Win32
+		{ACD31882-3E1A-4876-BA09-0992358B17E4}.Release|Win32.ActiveCfg = Release|Win32
+		{ACD31882-3E1A-4876-BA09-0992358B17E4}.Release|Win32.Build.0 = Release|Win32
+		{43697B5A-933D-4557-80EF-518047CF6B30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43697B5A-933D-4557-80EF-518047CF6B30}.Debug|Win32.Build.0 = Debug|Win32
+		{43697B5A-933D-4557-80EF-518047CF6B30}.Release|Win32.ActiveCfg = Release|Win32
+		{43697B5A-933D-4557-80EF-518047CF6B30}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
